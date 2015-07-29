@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	min-width: 1167px;	
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+	position: relative;
+	min-height: 100%;
+}
+
+.content {
+	padding-bottom: 140px;
+}
+
+.contain {
+	width: 1167px;
+	display: block;
+	margin: 0 auto;
+	&:before,
+	&:after{		
+		display: table;
+  		content: " ";
+	}
+	&:after{
+		clear: both;
+	}
+}
+
+a {
+	text-decoration: none;
+	&:hover, &:focus, &:active{
+		outline: none;
+	}
+}
+
+ul {
+	list-style-type: none;
+}
