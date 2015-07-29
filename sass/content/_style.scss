@@ -1,0 +1,33 @@
+.slider {
+	margin: 0 0 40px 0;
+	padding: 0;
+	border-bottom: 3px solid #d9d0c0;
+}
+
+.events {
+	display: block;
+	position: relative;
+	border-top: 1px solid #cacaca;
+	h1 {
+		color: #414147;
+		font-family: "Century-Gothic-Regular";
+		font-size: 35px;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	h4 {
+		color: #414147;
+		font-family: "Century-Gothic-Regular";
+		font-size: 24px;
+		text-align: center;
+	}
+	&__block {
+		display: block;
+		float: left;
+		width: 250px;
+		height: 285px;
+		background-color: #ff0111;
+		margin: 25px 20px;
+
+	}
+}

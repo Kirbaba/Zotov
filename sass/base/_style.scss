@@ -4,6 +4,16 @@
 }
 
 @import "http://webfonts.ru/import/unisansac.css";
+@font-face {
+    font-family: 'Century-Gothic-Regular';
+    src: url('../fonts/Century-Gothic-Regular.eot');
+    src: url('../fonts/Century-Gothic-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Century-Gothic-Regular.woff') format('woff'),
+         url('../fonts/Century-Gothic-Regular.ttf') format('truetype'),
+         url('../fonts/Century-Gothic-Regular.svg#Century-Gothic-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html,
 body {
@@ -38,4 +48,27 @@ a {
 
 ul {
 	list-style-type: none;
+}
+
+.blockTitle {
+	text-align: center;
+	color: #fdfdfe;
+	font-size: 18px;
+	margin-top: -15px;
+	outline-color: #ff0111;
+	outline: 0 10px;
+	span {
+		display: block;
+		line-height: 31px;
+		margin: 0 auto;
+		width: 318px;
+		height: 31px;
+		background-color: #ff0111;
+		text-align: center;
+		border: 10px solid #f6f6f6;
+		border-top: 0;
+		border-bottom: 0;
+		-moz-box-sizing: border-box; /* Для Firefox */  
+		box-sizing: border-box; /* Ширина блока с полями */
+	}
 }
