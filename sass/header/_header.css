@@ -1,0 +1,14 @@
+.header {
+  height: 150px;
+  display: block;
+  position: relative; }
+  .header__logo {
+    width: 20%;
+    display: block;
+    float: left;
+    padding: 10px 0; }
+    .header__logo a img {
+      display: block;
+      margin: 0 auto; }
+
+/*# sourceMappingURL=_header.css.map */

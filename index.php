@@ -13,7 +13,22 @@
 </head>
 <body>
 	<header class="header">
-		
+		<div class="header__logo">
+			<a href="#nowhere"><img src="<?php bloginfo('template_directory'); ?>/img/ZOTOV.png" alt=""></a>
+		</div>
+		<div class="header__nav">
+			<nav class="navMenu">
+				<ul>
+					<a href="#nowhere"><li>Организация  праздников</li></a>
+					<a href="#nowhere"><li>Организация  концертов</li></a>
+					<a href="#nowhere"><li>наши  мероприятия</li></a>
+					<a href="#nowhere"><li>Живая музыка Шоу-балет </li></a>
+					<a href="#nowhere"><li>Видеоографы Фотографы </li></a>
+					<a href="#nowhere"><li>Аренда  аппаратуры</li></a>
+					<a href="#nowhere"><li>контакты</li></a>
+				</ul>
+			</nav>
+		</div>
 	</header>
 
 	<footer class="footer">

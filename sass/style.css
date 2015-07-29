@@ -1,3 +1,77 @@
+@import "http://webfonts.ru/import/unisansac.css";
+* {
+  margin: 0;
+  padding: 0; }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-width: 1167px;
+  background-color: #f6f6f6;
+  font-family: 'Uni Sans'; }
+
+.contain {
+  width: 1167px;
+  display: block;
+  margin: 0 auto; }
+  .contain:before, .contain:after {
+    display: table;
+    content: " "; }
+  .contain:after {
+    clear: both; }
+
+a {
+  text-decoration: none; }
+  a:hover, a:focus, a:active {
+    outline: none; }
+
+ul {
+  list-style-type: none; }
+
+.header {
+  height: 150px;
+  display: block;
+  position: relative; }
+  .header__logo {
+    width: 20%;
+    display: block;
+    float: left;
+    padding: 10px 0; }
+    .header__logo a img {
+      display: block;
+      margin: 0 auto; }
+  .header__nav {
+    display: block;
+    position: relative;
+    width: 80%;
+    float: left; }
+
+.navMenu {
+  padding: 35px 0;
+  display: block;
+  float: right; }
+  .navMenu ul a {
+    display: inline-block;
+    width: 150px;
+    height: 58px;
+    line-height: 58px;
+    padding: 0 10px;
+    text-align: center; }
+    .navMenu ul a li {
+      display: inline-block;
+      color: #414141;
+      line-height: normal;
+      text-transform: uppercase;
+      vertical-align: middle;
+      font-size: 16px;
+      font-weight: 200; }
+    .navMenu ul a:hover {
+      background-color: #ff0111;
+      text-decoration: none; }
+      .navMenu ul a:hover li {
+        text-decoration: none;
+        color: #fefefe; }
 
 /*# sourceMappingURL=style.css.map */

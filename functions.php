@@ -1,10 +1,5 @@
 <?php
 
-define('TM_DIR', get_template_directory(__FILE__));
-define('TM_URL', get_template_directory_uri(__FILE__));
-
-require_once TM_DIR.'/lib/parser.php';
-
 function add_style(){
     wp_enqueue_style( 'my-bootstrap-extension', get_template_directory_uri() . '/css/bootstrap.css', array(), '1');
     wp_enqueue_style( 'my-styles', get_template_directory_uri() . '/css/style.css', array('my-bootstrap-extension'), '1');
