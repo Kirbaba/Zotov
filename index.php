@@ -31,6 +31,15 @@
 		</div>
 	</header>
 
+	<section class="slider">
+		<div class="fotorama" data-arrows="false" width="100%"	data-height="845/465" data-autoplay="true" data-loop="true">											
+				<img src="<?php bloginfo('template_directory'); ?>/img/slide1.png" alt="placeholder+image">						
+				<img src="<?php bloginfo('template_directory'); ?>/img/slide1.png" alt="placeholder+image">						
+				<img src="<?php bloginfo('template_directory'); ?>/img/slide1.png" alt="placeholder+image">						
+				<img src="<?php bloginfo('template_directory'); ?>/img/slide1.png" alt="placeholder+image">				
+			</div>
+	</section>
+
 	<footer class="footer">
 		
 	</footer>
