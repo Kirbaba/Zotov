@@ -24,7 +24,9 @@
 
 .fotorama__nav.fotorama__nav--dots {
   position: absolute;
-  top: 0; }
+  top: 0;
+  height: 50px;
+  margin-top: 0; }
 
 .fotorama__nav__shaft {
   float: right;
@@ -142,7 +144,8 @@ ul {
 .events {
   display: block;
   position: relative;
-  border-top: 1px solid #cacaca; }
+  border-top: 1px solid #cacaca;
+  padding-bottom: 50px; }
   .events h1 {
     color: #414147;
     font-family: "Century-Gothic-Regular";
@@ -156,10 +159,61 @@ ul {
     text-align: center; }
   .events__block {
     display: block;
+    position: relative;
     float: left;
     width: 250px;
     height: 285px;
     background-color: #ff0111;
-    margin: 25px 20px; }
+    margin: 25px 20px;
+    overflow: hidden; }
+    .events__block--img {
+      display: block;
+      overflow: hidden;
+      width: 100%;
+      height: 100%; }
+      .events__block--img img {
+        margin: 0 auto;
+        width: 100%; }
+    .events__block--desc {
+      display: none;
+      position: absolute;
+      bottom: 0;
+      height: 85px;
+      width: 100%;
+      background-color: #414145;
+      -webkit-transition: all 0.5s linear;
+      -moz-transition: all 0.5s linear;
+      -ms-transition: all 0.5s linear;
+      -o-transition: all 0.5s linear;
+      transition: all 0.5s linear;
+      padding: 5px 15px; }
+      .events__block--desc:before {
+        content: '';
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-bottom: 15px solid #414145;
+        top: -15px;
+        right: 20px;
+        position: absolute; }
+      .events__block--desc h3 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 20px;
+        margin-top: 5px; }
+      .events__block--desc a {
+        color: #fafaf3;
+        font-family: "Century-Gothic-Regular";
+        font-size: 10px;
+        display: block;
+        text-align: right;
+        display: block;
+        float: left;
+        position: absolute;
+        right: 10px;
+        bottom: 10px; }
+        .events__block--desc a:hover {
+          color: #fafaf3; }
+    .events__block:hover .events__block--desc {
+      display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
