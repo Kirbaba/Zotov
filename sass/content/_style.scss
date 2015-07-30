@@ -88,3 +88,41 @@
 		}		
 	}
 }
+
+.livemusic {
+	display: block;
+	position: relative;
+	border-top: 1px solid #cacaca;
+	background: url("../img/Shape-1.png") no-repeat;
+	background-position: 50% 0;
+	background-repeat: none;
+	@include bgs(cover);
+	.blockTitle {
+		span {
+			border: 0;
+		}
+	}
+	&__mic {
+		display: inline-block;
+		float: left;
+		width: 40%;
+		height: 600px;
+		margin-top: -60px;
+		background-image: url("../img/6.png");
+		background-repeat: no-repeat;
+		background-position: 100% 100%;
+	}
+	&__text {
+		display: inline-block;
+		position: relative;
+		width: 910 / 1635 * 100%;
+		margin-top: 125px;
+		margin-bottom: 125px;
+		h2 {
+			color: #fefdfd;
+			font-style: 22px;
+			text-align: center;
+			max-width: 910px;
+		}
+	}
+}

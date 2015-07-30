@@ -32,7 +32,7 @@
 	</header>
 
 	<section class="slider">
-		<div class="fotorama" data-arrows="false" width="100%"	data-height="1634/697" data-autoplay="true" data-loop="true">											
+		<div class="fotorama" data-arrows="false" data-minwidth="100%"	data-ratio="1634/697" data-autoplay="true" data-loop="true">											
 				<img src="<?php bloginfo('template_directory'); ?>/img/slide1.png" alt="placeholder+image">						
 				<img src="<?php bloginfo('template_directory'); ?>/img/slide1.png" alt="placeholder+image">						
 				<img src="<?php bloginfo('template_directory'); ?>/img/slide1.png" alt="placeholder+image">						
@@ -73,6 +73,18 @@
 		</div>
 	</section>
 
+	<section class="livemusic">
+		<h3 class="blockTitle"><span>наши мероприятия</span></h3>
+		<div class="livemusic__mic"></div>
+		<div class="livemusic__text">
+			<h2>Вы можете согласовать <span class="red">плей-лист</span> 
+			праздника заранее, а возможно, составить 
+			несколько таких списков. Ансамбли, ди-джеи, 
+			солисты  чувствуют потребности публики. 
+			а Индивидуальный подход к каждому человеку 
+			обеспечит <span class="red">успех любой вечеринки</span>.</h2>
+		</div>
+	</section>
 	<footer class="footer">
 		
 	</footer>

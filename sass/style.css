@@ -92,6 +92,9 @@ ul {
     box-sizing: border-box;
     /* ╨и╨╕╤А╨╕╨╜╨░ ╨▒╨╗╨╛╨║╨░ ╤Б ╨┐╨╛╨╗╤П╨╝╨╕ */ }
 
+.red {
+  color: #ff0111; }
+
 .header {
   height: 150px;
   display: block;
@@ -215,5 +218,38 @@ ul {
           color: #fafaf3; }
     .events__block:hover .events__block--desc {
       display: inline-block; }
+
+.livemusic {
+  display: block;
+  position: relative;
+  border-top: 1px solid #cacaca;
+  background: url("../img/Shape-1.png") no-repeat;
+  background-position: 50% 0;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .livemusic .blockTitle span {
+    border: 0; }
+  .livemusic__mic {
+    display: inline-block;
+    float: left;
+    width: 40%;
+    height: 600px;
+    margin-top: -60px;
+    background-image: url("../img/6.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%; }
+  .livemusic__text {
+    display: inline-block;
+    position: relative;
+    width: 55.65749%;
+    margin-top: 125px;
+    margin-bottom: 125px; }
+    .livemusic__text h2 {
+      color: #fefdfd;
+      font-style: 22px;
+      text-align: center;
+      max-width: 910px; }
 
 /*# sourceMappingURL=style.css.map */

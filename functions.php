@@ -32,7 +32,7 @@ function my_pagenavi() {
     $big = 999999999; // уникальное число для замены
 
     $args = array(
-        'base' => str_replace( $big, '%#%', get_pagenum_link( $big ) )
+    'base' => str_replace( $big, '%#%', get_pagenum_link( $big ) )
     ,'format' => ''
     ,'current' => max( 1, get_query_var('paged') )
     ,'total' => $wp_query->max_num_pages

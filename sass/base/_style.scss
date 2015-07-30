@@ -55,7 +55,7 @@ ul {
 	color: #fdfdfe;
 	font-size: 18px;
 	margin-top: -15px;
-	outline-color: #ff0111;
+	outline-color: $red;
 	outline: 0 10px;
 	span {
 		display: block;
@@ -63,7 +63,7 @@ ul {
 		margin: 0 auto;
 		width: 318px;
 		height: 31px;
-		background-color: #ff0111;
+		background-color: $red;
 		text-align: center;
 		border: 10px solid #f6f6f6;
 		border-top: 0;
@@ -71,4 +71,8 @@ ul {
 		-moz-box-sizing: border-box; /* Для Firefox */  
 		box-sizing: border-box; /* Ширина блока с полями */
 	}
+}
+
+.red {
+	color: $red;
 }
