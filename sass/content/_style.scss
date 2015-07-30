@@ -11,14 +11,14 @@
 	padding-bottom: 50px;
 	h1 {
 		color: #414147;
-		font-family: "Century-Gothic-Regular";
+		font-family: $cent;
 		font-size: 35px;
 		text-align: center;
 		margin-bottom: 25px;
 	}
 	h4 {
 		color: #414147;
-		font-family: "Century-Gothic-Regular";
+		font-family: $cent;
 		font-size: 24px;
 		text-align: center;
 	}
@@ -55,7 +55,7 @@
 				border-left: 12px solid transparent;
 				border-right: 12px solid transparent;
 				border-bottom: 15px solid #414145;
-				top: -15px;
+				top: -14px;
 				right: 20px;
 				position: absolute;
 			}
@@ -67,7 +67,7 @@
 			}
 			a {
 				color: #fafaf3;
-				font-family: "Century-Gothic-Regular";
+				font-family: $cent;
 				font-size: 10px;
 				display: block;
 				text-align: right;
@@ -95,7 +95,9 @@
 	border-top: 1px solid #cacaca;
 	background: url("../img/Shape-1.png") no-repeat;
 	background-position: 50% 0;
-	background-repeat: none;
+	background-repeat: no-repeat;
+	margin-bottom: 75px;
+	height: 525px;
 	@include bgs(cover);
 	.blockTitle {
 		span {
@@ -105,24 +107,120 @@
 	&__mic {
 		display: inline-block;
 		float: left;
-		width: 40%;
-		height: 600px;
+		width: 33%;
+		height: 631px;
 		margin-top: -60px;
-		background-image: url("../img/6.png");
+		background-image: url("../img/karaokemic.png");
 		background-repeat: no-repeat;
 		background-position: 100% 100%;
 	}
 	&__text {
 		display: inline-block;
 		position: relative;
-		width: 910 / 1635 * 100%;
-		margin-top: 125px;
+		width: 60%;
+		padding-left: 14%;
+		margin-top: 100px;
 		margin-bottom: 125px;
+		background-image: url('../img/yellow-arrow.png');
+		background-repeat: no-repeat;
+		background-position: 7% 2%;
 		h2 {
 			color: #fefdfd;
 			font-style: 22px;
 			text-align: center;
 			max-width: 910px;
+			margin-top: 0;
+		}
+	}
+}
+
+.celebrations {
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	border-top: 1px solid #cacaca;
+	padding-bottom: 50px;
+	h2 {
+		text-align: center;
+		color: #414146;
+		font-family: $cent;
+		font-size: 16px;
+	}
+	&__block {
+		display: block;
+		float: left;
+		position: relative;
+		width: 20%;
+		margin: 40px 0;
+		&__img {
+			display: block;
+			float: left;
+			position: relative;
+			width: 100%;
+			img {
+				display: block;
+				position: relative;
+				width: 150px;
+				height: 150px;
+				margin: 0 auto;
+				border-radius: 50%;
+				border: 4px solid #fff;
+				margin-bottom: 25px;
+				-webkit-box-shadow: 0px 0px 5px 0px rgba(98, 50, 50, 0.85);
+				-moz-box-shadow:    0px 0px 5px 0px rgba(98, 50, 50, 0.85);
+				box-shadow:         0px 0px 5px 0px rgba(98, 50, 50, 0.85);
+				z-index: 99;
+				 /* Floating Shadow Pseudoelement */			
+			}
+			&:after { 
+				content:'';
+				display: block;
+				position: absolute;
+				left: 25%;
+				top: 90px;
+				width: 50%;
+				height: 10px;
+				background: transparent;
+				border-radius: 128px/20px;
+				box-shadow: 0 55px 30px rgba(0,0,0,1);
+				z-index: 1;
+			}
+		}
+
+		h4 {
+			text-align: center;
+			font-style: 18px;
+			font-family: $cent;
+			text-transform: uppercase;
+		}
+
+		&__write {
+			display: block;
+			float: left;
+			width: 100%;
+			position: relative;
+			background-image: url("../img/yellow-arrow2.png");
+			background-repeat: no-repeat;
+			background-position: 50% 0;
+			padding: 25px 0;
+			a {
+				display: block;
+				margin: 0 auto;
+				line-height: 43px;
+				position: relative;
+				height: 43px;
+				width: 191px;
+				background-color: $red;
+				border-bottom: 3px solid #4e3d42;
+				text-align: center;
+				color: #fdfdff;
+				font-family: $cent;
+				font-size: 20px;
+				&:hover {
+					text-decoration: none;
+					background-color: darken($red, 10%);
+				}
+			}
 		}
 	}
 }

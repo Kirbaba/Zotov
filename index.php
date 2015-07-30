@@ -85,6 +85,47 @@
 			обеспечит <span class="red">успех любой вечеринки</span>.</h2>
 		</div>
 	</section>
+
+	<section class="celebrations">
+		<h3 class="blockTitle"><span>ОРГАНИЗАЦИЯ ПРАЗДНИКОВ</span></h3>
+		<h2>Твое ЗАВТРА определяется выбором СЕГОДНЯ!</h2>
+		<div class="line">
+			<div class="celebrations__block">			
+				<div class="celebrations__block__img">
+					<img src="<?php bloginfo('template_directory'); ?>/img/weddings.png" alt="">
+				</div>
+				<h4>Свадьбы</h4>
+			</div>
+			<div class="celebrations__block">
+				<div class="celebrations__block__img">
+					<img src="<?php bloginfo('template_directory'); ?>/img/temp-38.png" alt="">
+				</div>
+				<h4>ДЕТСКИЕ<br>ПРАЗДНИКИ </h4>
+			</div>
+			<div class="celebrations__block">
+				<div class="celebrations__block__img">
+					<img src="<?php bloginfo('template_directory'); ?>/img/adults.png" alt="">
+				</div>
+				<h4>ПРАЗДНИКИ<br>ДЛЯ ВЗРОСЛЫХ</h4>
+			</div>
+			<div class="celebrations__block">
+				<div class="celebrations__block__img">
+					<img src="<?php bloginfo('template_directory'); ?>/img/corporative-actions.png" alt="">
+				</div>
+				<h4>КОРПОРАТИВЫ</h4>
+			</div>
+			<div class="celebrations__block">
+				<div class="celebrations__block__img">
+					<img src="<?php bloginfo('template_directory'); ?>/img/surprises.png" alt="">
+				</div>
+				<h4>СЮРПРИЗЫ</h4>
+			</div>
+		</div>
+		<div class="celebrations__block__write">
+			<a href="#nowhere">Написать нам</a>
+		</div>
+		
+	</section>
 	<footer class="footer">
 		
 	</footer>
