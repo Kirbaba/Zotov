@@ -200,7 +200,7 @@ ul {
         border-left: 12px solid transparent;
         border-right: 12px solid transparent;
         border-bottom: 15px solid #414145;
-        top: -15px;
+        top: -14px;
         right: 20px;
         position: absolute; }
       .events__block--desc h3 {
@@ -342,5 +342,48 @@ ul {
         .celebrations__block__write a:hover {
           text-decoration: none;
           background-color: #cd000d; }
+
+.photografers {
+  display: block;
+  position: relative;
+  border-top: 1px solid #cacaca;
+  background: url("../img/Shape-1.png") no-repeat;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  margin-bottom: 75px;
+  height: 525px;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .photografers .blockTitle span {
+    border: 0; }
+  .photografers h4 {
+    display: block;
+    padding: 0 20%;
+    color: #fdfdfe;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px; }
+  .photografers .zoomwall {
+    width: 80%;
+    max-width: 1000px;
+    display: block;
+    margin: 25px auto; }
+  .photografers .arrow-left, .photografers .arrow-right {
+    display: block;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    width: 110px;
+    height: 40px;
+    background-image: url("../img/yellow-arrowL.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain; }
+  .photografers .arrow-right {
+    left: inherit;
+    right: 5%;
+    background-image: url("../img/yellow-arrowR.png"); }
 
 /*# sourceMappingURL=style.css.map */
