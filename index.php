@@ -144,6 +144,51 @@
 		<div class="arrow-right"></div>
 	</section>
 
+	<section class="rent">
+		<h3 class="blockTitle"><span>АРЕНДА АППАРАТУРЫ</span></h3>
+		<div class="contain">
+			<div class="rent__leftBg"></div>
+			<div class="rent__content">
+				<p class="rent__content__item1">
+					Вы оставляете заявку <br>
+					и мы связываемся с Вами <br>
+					в течение 30 минут
+				</p>
+				<p class="rent__content__item2">
+					Составляем заказ <br>
+					на аппаратуру
+				</p>
+				<p class="rent__content__item3">
+					Оплачиваете заказ<br>
+					и ждете доставку
+				</p>
+				<p class="rent__content__item4">
+					Вы наслаждаетесь <br>
+					прекрасным звуком
+				</p>
+				<p class="rent__content__item5">
+					Спасибо за сотрудничество
+				</p>
+				<a href="#nowhere" class="rent__but">Написать нам</a>
+			</div>			
+		</div>
+		<div class="rent__rightBg"></div>
+	</section>
+
+	<section class="concerts">
+		<h3 class="blockTitle"><span>организация концертов</span></h3>
+		<div class="concerts__content">
+			<h2>Пригласить <span class="red">АРТИСТА</span> <br> к себе на Мероприятие – <span class="red">просто!</span></h2>
+			<div class="concerts__content__but">
+				<a href="#nowhere">Заказать</a>	
+			</div>		
+		</div>
+		<div class="concerts__posters">
+			<div class="concerts__posters--one"></div>
+			<div class="concerts__posters--two"></div>
+		</div>
+	</section>
+
 	<footer class="footer">
 		
 	</footer>
