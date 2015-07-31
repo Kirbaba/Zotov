@@ -1,12 +1,12 @@
 
 /*-------------GOOGLE MAPS-----------------*/
 
-/*function initialize() {
+function initialize() {
 
-    var myLatlng = new google.maps.LatLng(59.934602, 30.334607);
+    var myLatlng = new google.maps.LatLng(51.7695485,55.1002291);
     var mapOptions = {
-        center: new google.maps.LatLng(59.934602, 30.334607),
-        zoom: 17,
+        center: new google.maps.LatLng(51.7695485,55.1002291),
+        zoom: 12,
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         scrollwheel: false
     };
@@ -25,10 +25,6 @@ function loadScript() {
     script.src = "http://maps.googleapis.com/maps/api/js?key=AIzaSyAaOWKyamSxMTXclSDFmJ2N4Am20PCTD6I&sensor=FALSE&callback=initialize";
     document.body.appendChild(script);
 }
-
-window.onload = loadScript;
-*/
-
 
 $(function() {
 
@@ -56,4 +52,6 @@ $(function() {
 
 window.onload = function() {
     zoomwall.create(document.getElementById('gallery'));
+    loadScript();
 };
+

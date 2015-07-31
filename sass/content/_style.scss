@@ -379,7 +379,7 @@
 	&__content {
 		display: inline-block;
 		float: left;
-		width: 39%;
+		width: 40%;
 		padding-left: 5%;
 		position: relative;
 		margin: 125px 0;
@@ -446,6 +446,42 @@
 			border: 4px solid #fff;
 			background-image: url("../img/post2.png");
 			background-position: 50% 0;
+		}
+	}
+}
+
+.contacts {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	display: inline-block;
+	border-top: 1px solid #cacaca;
+	.blockTitle {
+		position: relative;
+		z-index: 9;
+		span {
+			border: 0;
+		}
+	}
+	#map_canvas {
+		margin-top: -25px;
+		z-index: 1;
+	}
+	&__info {
+		position: absolute;
+		z-index: 9;
+		width: 400px;
+		height: 150px;
+		top: 10%;
+		right: 5%;
+		display: block;
+		background: rgba(65, 65, 69, 0.3);
+		h2 {
+			color: #000;
+			font-size: 36px;
+			text-align: center;
+			font-family: $cent;
+			text-transform: uppercase;
 		}
 	}
 }

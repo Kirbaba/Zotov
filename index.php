@@ -188,6 +188,14 @@
 			<div class="concerts__posters--two"></div>
 		</div>
 	</section>
+	
+	<section class="contacts">
+		<h3 class="blockTitle"><span>Контакты</span></h3>
+		<div id="map_canvas" style="width:100%; height:100%"></div>
+		<div class="contacts__info">
+			<h2>Наш телефон<br>938-937</h2>
+		</div>
+	</section>
 
 	<footer class="footer">
 		
