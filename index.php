@@ -19,13 +19,13 @@
 		<div class="header__nav">
 			<nav class="navMenu">
 				<ul>
-					<a href="#nowhere"><li>Организация  праздников</li></a>
-					<a href="#nowhere"><li>Организация  концертов</li></a>
-					<a href="#nowhere"><li>наши  мероприятия</li></a>
-					<a href="#nowhere"><li>Живая музыка Шоу-балет </li></a>
-					<a href="#nowhere"><li>Видеоографы Фотографы </li></a>
-					<a href="#nowhere"><li>Аренда  аппаратуры</li></a>
-					<a href="#nowhere"><li>контакты</li></a>
+					<a href="#go_celebr" class="smoothScroll"><li>Организация  праздников</li></a>
+					<a href="#go_concerts" class="smoothScroll"><li>Организация  концертов</li></a>
+					<a href="#go_events" class="smoothScroll"><li>наши  мероприятия</li></a>
+					<a href="#go_live" class="smoothScroll"><li>Живая музыка Шоу-балет </li></a>
+					<a href="#go_photo" class="smoothScroll"><li>Видеоографы Фотографы </li></a>
+					<a href="#go_rent" class="smoothScroll"><li>Аренда  аппаратуры</li></a>
+					<a href="#go_contacts" class="smoothScroll"><li>контакты</li></a>
 				</ul>
 			</nav>
 		</div>
@@ -39,7 +39,7 @@
 				<img src="<?php bloginfo('template_directory'); ?>/img/slide1.png" alt="placeholder+image">				
 			</div>
 	</section>
-
+<a id="go_events" name="go_events" class="internal_links"></a>
 	<section class="events">
 		<h3 class="blockTitle"><span>наши мероприятия</span></h3>
 		<div class="contain">
@@ -72,9 +72,9 @@
 			</div>
 		</div>
 	</section>
-
+<a id="go_live" name="go_leve" class="internal_links"></a>
 	<section class="livemusic">
-		<h3 class="blockTitle"><span>ОРГАНИЗАЦИЯ ПРАЗДНИКОВ</span></h3>
+		<h3 class="blockTitle"><span>шоу балет и живая музыка</span></h3>
 		<div class="livemusic__mic"></div>
 		<div class="livemusic__text">
 			<h2>Вы можете согласовать <span class="red">плей-лист</span> 
@@ -86,6 +86,7 @@
 		</div>
 	</section>
 
+	<a id="go_celebr" name="go_celebr" class="internal_links"></a>
 	<section class="celebrations">
 		<h3 class="blockTitle"><span>ОРГАНИЗАЦИЯ ПРАЗДНИКОВ</span></h3>
 		<h2>Твое ЗАВТРА определяется выбором СЕГОДНЯ!</h2>
@@ -126,7 +127,7 @@
 		</div>		
 	</section>
 
-	<section class="photografers">
+	<section class="photografers"><a id="go_photo" name="go_photo" class="internal_links"></a>
 		<h3 class="blockTitle"><span>фотографы и видиографы</span></h3>
 		<div class="contain">
 			<h4>В нашей студии вы можете заказать весь комплекс услуг по фотосъемке: 
@@ -143,7 +144,7 @@
 		<div class="arrow-left"></div>
 		<div class="arrow-right"></div>
 	</section>
-
+<a id="go_rent" name="go_rent" class="internal_links"></a>
 	<section class="rent">
 		<h3 class="blockTitle"><span>АРЕНДА АППАРАТУРЫ</span></h3>
 		<div class="contain">
@@ -174,7 +175,7 @@
 		</div>
 		<div class="rent__rightBg"></div>
 	</section>
-
+	<a id="go_concerts" name="go_concerts" class="internal_links"></a>
 	<section class="concerts">
 		<h3 class="blockTitle"><span>организация концертов</span></h3>
 		<div class="concerts__content">
@@ -188,7 +189,7 @@
 			<div class="concerts__posters--two"></div>
 		</div>
 	</section>
-	
+	<a id="go_contacts" name="go_contacts" class="internal_links"></a>
 	<section class="contacts">
 		<h3 class="blockTitle"><span>Контакты</span></h3>
 		<div id="map_canvas" style="width:100%; height:100%"></div>

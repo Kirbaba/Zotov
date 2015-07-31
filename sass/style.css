@@ -101,6 +101,10 @@ ul {
   display: block;
   float: left; }
 
+.internal_links {
+  position: relative;
+  top: -15px; }
+
 .header {
   height: 150px;
   display: block;
