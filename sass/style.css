@@ -32,6 +32,77 @@
   float: right;
   margin-right: 30px; }
 
+.modal-dialog {
+  background-color: #fff;
+  text-align: center;
+  width: 450px; }
+  .modal-dialog h1 {
+    font-size: 30px;
+    text-transform: uppercase; }
+
+#callme, #thnx {
+  background-color: rgba(65, 65, 70, 0.3); }
+
+.modal-header {
+  border-bottom: 0;
+  padding: 35px 0; }
+  .modal-header .close {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ff0111;
+    background-image: url("../img/close.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: -45px -15px 0 0;
+    opacity: 1;
+    outline: none; }
+  .modal-header .close:hover {
+    background-color: derken(#ff0111, 15%); }
+  .modal-header p {
+    color: #2d2d2d;
+    font-size: 20px; }
+  .modal-header h1 {
+    color: #2d2d2d;
+    font-family: "OpenSans", sans-serif;
+    font-size: 40px;
+    font-weight: bold; }
+
+.formPopup {
+  width: 367px;
+  height: 56px;
+  border: 2px solid rgba(0, 0, 0, 0.06);
+  background-color: #f8f8f8;
+  margin-bottom: 10px;
+  padding: 0 20px; }
+  .formPopupText {
+    width: 367px;
+    height: 274px;
+    border: 2px solid rgba(0, 0, 0, 0.06);
+    background-color: #f8f8f8;
+    margin-bottom: 10px;
+    padding: 20px;
+    resize: none; }
+  .formPopupSub {
+    display: block;
+    margin: 0 auto;
+    line-height: 43px;
+    position: relative;
+    height: 43px;
+    width: 220px;
+    background-color: #ff0111;
+    border-bottom: 3px solid #4e3d42;
+    text-align: center;
+    color: #fdfdff;
+    font-family: "Century-Gothic-Regular";
+    font-size: 18px;
+    border: none; }
+    .formPopupSub:hover {
+      text-decoration: none;
+      background-color: #cd000d; }
+    .formPopupSub:focus {
+      text-decoration: none; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -352,6 +423,8 @@ ul {
         .celebrations__block__write a:hover {
           text-decoration: none;
           background-color: #cd000d; }
+        .celebrations__block__write a:focus {
+          text-decoration: none; }
 
 .photografers {
   display: block;
@@ -485,6 +558,8 @@ ul {
       text-decoration: none;
       color: #fdfdff;
       background-color: #cd000d; }
+    .rent__but:focus {
+      text-decoration: none; }
 
 .concerts {
   height: 400px; }
@@ -514,7 +589,6 @@ ul {
         height: 43px;
         width: 191px;
         background-color: #ff0111;
-        border-bottom: 3px solid #4e3d42;
         text-align: center;
         color: #fdfdff;
         font-family: "Century-Gothic-Regular";
@@ -523,6 +597,8 @@ ul {
           text-decoration: none;
           color: #fdfdff;
           background-color: #cd000d; }
+        .concerts__content__but a:focus {
+          text-decoration: none; }
   .concerts__posters {
     display: inline-block;
     width: 60%;

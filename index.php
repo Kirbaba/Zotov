@@ -123,7 +123,7 @@
 			</div>
 		</div>
 		<div class="celebrations__block__write">
-			<a href="#nowhere">Написать нам</a>
+			<a data-toggle="modal" href="#callme">Написать нам</a>
 		</div>		
 	</section>
 
@@ -170,7 +170,7 @@
 				<p class="rent__content__item5">
 					Спасибо за сотрудничество
 				</p>
-				<a href="#nowhere" class="rent__but">Написать нам</a>
+				<a class="rent__but" data-toggle="modal" href="#callme">Написать нам</a>
 			</div>			
 		</div>
 		<div class="rent__rightBg"></div>
@@ -181,7 +181,7 @@
 		<div class="concerts__content">
 			<h2>Пригласить <span class="red">АРТИСТА</span> <br> к себе на Мероприятие – <span class="red">просто!</span></h2>
 			<div class="concerts__content__but">
-				<a href="#nowhere">Заказать</a>	
+				<a  data-toggle="modal" href="#callme">Заказать</a>	
 			</div>		
 		</div>
 		<div class="concerts__posters">
@@ -199,9 +199,24 @@
 	</section>
 
 	<footer class="footer">
-		
+		<a href="http://web-artcraft.com">Разработка</a>
 	</footer>
     
+	<div class="modal fade" id="callme" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	    <div class="modal-dialog">
+	        <div class="modal-header">
+	            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><!--&times;--></button>
+	            <form method="POST" id="formx" action="javascript:void(null);" onsubmit="call()">
+	            	<input type="text" name="name" id = "name_inp" class="formPopup" placeholder="Ваше имя" required >
+	            	<input type="email" name="email" id = "mail_inp" class="formPopup" placeholder="Ваш e-mail" required>
+	            	<textarea class="formPopupText" name="mes" id = "text" placeholder="Введите ваше сообщение" required></textarea>
+	            	<input class="formPopupSub" type="button" id="button" value="Отправить сообщение" style="cursor: pointer">
+	            </form>
+	            
+	        </div>
+	    </div>
+	</div>
+
 <?php wp_footer(); ?>
 </body>
 </html>

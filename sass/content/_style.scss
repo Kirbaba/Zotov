@@ -220,6 +220,9 @@
 					text-decoration: none;
 					background-color: darken($red, 10%);
 				}
+				&:focus {
+					text-decoration: none;
+				}
 			}
 		}
 	}
@@ -370,6 +373,9 @@
 			color: #fdfdff;
 			background-color: darken($red, 10%);
 		}
+		&:focus {
+			text-decoration: none;
+		}
 	}
 }
 
@@ -403,7 +409,6 @@
 				height: 43px;
 				width: 191px;
 				background-color: $red;
-				border-bottom: 3px solid #4e3d42;
 				text-align: center;
 				color: #fdfdff;
 				font-family: $cent;
@@ -413,6 +418,9 @@
 					color: #fdfdff;
 					background-color: darken($red, 10%);
 				}
+			    &:focus {
+			      text-decoration: none;
+			    }
 			}
 		}
 	}
