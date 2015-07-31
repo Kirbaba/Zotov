@@ -145,6 +145,11 @@ ul {
         text-decoration: none;
         color: #fefefe; }
 
+.footer {
+  display: block;
+  height: 70px;
+  background-color: #414146; }
+
 .slider {
   margin: 0 0 40px 0;
   padding: 0;
