@@ -32,12 +32,13 @@
 	</header>
 
 	<section class="slider">
-		<div class="fotorama" data-arrows="false" data-minwidth="100%"	data-ratio="1634/697" data-fit="cover" data-autoplay="true" data-loop="true">											
-				<img src="<?php bloginfo('template_directory'); ?>/img/slide1-1.png" alt="placeholder+image">						
-				<img src="<?php bloginfo('template_directory'); ?>/img/1388672510_1-37.jpg" alt="placeholder+image">						
-				<img src="<?php bloginfo('template_directory'); ?>/img/bg10.jpg" alt="placeholder+image">						
-				<img src="<?php bloginfo('template_directory'); ?>/img/reveillon-du-31.jpg" alt="placeholder+image">				
-			</div>
+		<!-- <div class="fotorama" data-arrows="false" data-minwidth="100%"	data-ratio="1634/697" data-fit="cover" data-autoplay="true" data-loop="true">											
+			<img src="<?php bloginfo('template_directory'); ?>/img/slide1-1.png" alt="placeholder+image">						
+			<img src="<?php bloginfo('template_directory'); ?>/img/1388672510_1-37.jpg" alt="placeholder+image">						
+			<img src="<?php bloginfo('template_directory'); ?>/img/bg10.jpg" alt="placeholder+image">						
+			<img src="<?php bloginfo('template_directory'); ?>/img/reveillon-du-31.jpg" alt="placeholder+image">				
+		</div> -->
+		<?php echo do_shortcode('[headSlides]') ?>
 	</section>
 <a id="go_events" name="go_events" class="internal_links"></a>
 	<section class="events">
