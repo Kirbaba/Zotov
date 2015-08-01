@@ -191,23 +191,23 @@ ul {
     .wac-copyright a i {
       display: inline-block;
       height: 40px;
-      width: 40px;
+      width: 68px;
       margin: 0 auto;
       background-image: url("../img/ArtCraft.png");
       background-repeat: no-repeat;
       background-size: cover; }
     .wac-copyright a:hover i {
       height: 42px;
-      width: 42px;
-      -moz-transform: rotate(15deg);
+      width: 70px;
+      -moz-transform: rotate(-15deg);
       /* ╨Ф╨╗╤П Firefox */
-      -ms-transform: rotate(15deg);
+      -ms-transform: rotate(-15deg);
       /* ╨Ф╨╗╤П IE */
-      -webkit-transform: rotate(15deg);
+      -webkit-transform: rotate(-15deg);
       /* ╨Ф╨╗╤П Safari, Chrome, iOS */
-      -o-transform: rotate(15deg);
+      -o-transform: rotate(-15deg);
       /* ╨Ф╨╗╤П Opera */
-      transform: rotate(15deg); }
+      transform: rotate(-15deg); }
 
 .internal_links {
   position: relative;
