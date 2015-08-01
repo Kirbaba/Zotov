@@ -211,6 +211,8 @@
 	            	<input type="email" name="email" id = "mail_inp" class="formPopup" placeholder="Ваш e-mail" required>
 	            	<textarea class="formPopupText" name="mes" id = "text" placeholder="Введите ваше сообщение" required></textarea>
 	            	<input class="formPopupSub" type="button" id="button" value="Отправить сообщение" style="cursor: pointer">
+					<?php //echo do_shortcode("[contact-form-7 id='5' title='Form1']"); ?>
+
 	            </form>
 	            
 	        </div>

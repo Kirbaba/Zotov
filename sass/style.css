@@ -40,7 +40,7 @@
     font-size: 30px;
     text-transform: uppercase; }
 
-#callme, #thnx {
+#callme {
   background-color: rgba(65, 65, 70, 0.3); }
 
 .modal-header {
@@ -602,7 +602,7 @@ ul {
   .concerts__posters {
     display: inline-block;
     width: 60%;
-    padding-left: 5%;
+    padding-left: 4%;
     position: relative; }
     .concerts__posters--one {
       position: relative;
