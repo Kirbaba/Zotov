@@ -85,3 +85,39 @@ ul {
 	display: block;
 	float: left;
 }
+
+.wac-copyright {
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+	padding-top: 15px;
+	text-align: center;
+	a {
+		text-decoration: none;
+		display: inline-block;
+		color: #fff;
+		text-align: center;
+		@include transition(1s);
+		i {
+			display: inline-block;
+			height: 40px;
+			width: 40px;
+			margin: 0 auto;
+			background-image: url("../img/ArtCraft.png");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		&:hover {
+			i {
+				height: 42px;
+				width: 42px;
+				-moz-transform: rotate(15deg); /* Для Firefox */
+				-ms-transform: rotate(15deg); /* Для IE */
+				-webkit-transform: rotate(15deg); /* Для Safari, Chrome, iOS */
+				-o-transform: rotate(15deg); /* Для Opera */
+				transform: rotate(15deg);
+			}
+		}
+	}
+	
+}

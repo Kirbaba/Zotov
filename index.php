@@ -199,7 +199,11 @@
 	</section>
 
 	<footer class="footer">
-		<a href="http://web-artcraft.com">Разработка</a>
+		<div class="wac-copyright">
+		<a href="http://web-artcraft.com">
+			<i></i>
+		</a>
+		</div>
 	</footer>
     
 	<div class="modal fade" id="callme" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
