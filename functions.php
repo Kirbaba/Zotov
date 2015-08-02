@@ -66,6 +66,7 @@ if ( function_exists( 'add_theme_support' ) )
 
 function gen_menu_page(){    
     add_menu_page( 'Слайдер', 'Настройки слайдера', 'administrator', 'slides', 'genSlidesAdminPage' );
+    add_menu_page( 'Фотографы и видеографы', 'Настройки страницы "Фотографы и видеографы"', 'administrator', 'photographers', 'genPhotographersAdminPage' );
 }
 add_action('admin_menu', 'gen_menu_page');
 
@@ -133,3 +134,57 @@ add_action('admin_head', 'admin_js');
 
 /*------------END ADMIN--------------*/
 
+function genPhotographersAdminPage(){
+    global $wpdb;
+    $message = '';
+    $parser = new Parser_generator_theme();
+
+    if (function_exists('wp_enqueue_media')) {
+        wp_enqueue_media();
+    } else {
+        wp_enqueue_style('thickbox');
+        wp_enqueue_script('media-upload');
+        wp_enqueue_script('thickbox');
+    }
+
+    if(isset($_GET['delPhoto'])){
+        $wpdb->delete('photographers_gallery',array("id" => $_GET['delPhoto']));
+        $message = "Фото успешно удалено!";
+    }
+
+    if(isset($_POST['attachment_url'])){
+        $wpdb->insert('photographers_gallery', array("img" => $_POST['attachment_url']));
+        $message = "Слайд успешно добавлен!";
+        echo mysql_error();
+    }
+
+    $generate = '';
+
+    $slides = $wpdb->get_results("SELECT * FROM photographers_gallery");
+    foreach ($photos as $photo) {
+        $generate .= "<tr>
+                        <td style='padding-right: 10px'><img src='". $photo->img. "' alt='' style='width: 50px;'/></td>
+                        <td style='padding-right: 10px'><a href='/wp-admin/admin.php?page=photographers&delPhoto=$photo->id'>Удалить</a></td>
+                      </tr>";
+    }
+
+    $parser->parse(GENERATOR_THEME_DIR."/view/admin/photographers_gallery.php",array('photos'=>$generate,
+        'message'=>$message), true);
+}
+
+function photosShortcode(){
+    global $wpdb;
+
+    $iterator = 0;
+
+    $photos = $wpdb->get_results("SELECT * FROM photographers_gallery");
+
+    foreach ($photos as $key => $photo) {
+        
+        $generate.= "<img src='".$photo->img."' alt='Carousel Item Title'>";
+        $iterator++;
+    }
+
+    return "<div id='gallery' class='zoomwall'>".$generate."</div>";
+}
+add_shortcode('photographers_gallery', 'photosShortcode');

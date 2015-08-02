@@ -134,13 +134,14 @@
 			<h4>В нашей студии вы можете заказать весь комплекс услуг по фотосъемке: 
 			выезд фотографа на место, составление сценария фотосъемки, 
 			непосредственно сама фотосессия </h4>
-			<div id="gallery" class="zoomwall">
+			<!-- <div id="gallery" class="zoomwall">
 			    <img src="<?php bloginfo('template_directory'); ?>/img/img (1).jpg" data-highres="<?php bloginfo('template_directory'); ?>/img/img (1).jpg" />
 			    <img src="<?php bloginfo('template_directory'); ?>/img/img (2).jpg" data-highres="<?php bloginfo('template_directory'); ?>/img/img (2).jpg" />
 			    <img src="<?php bloginfo('template_directory'); ?>/img/img (3).jpg" data-highres="<?php bloginfo('template_directory'); ?>/img/img (3).jpg" />
 			     <img src="<?php bloginfo('template_directory'); ?>/img/img (4).jpg" data-highres="<?php bloginfo('template_directory'); ?>/img/img (4).jpg" />
 			    <img src="<?php bloginfo('template_directory'); ?>/img/img (5).jpg" data-highres="<?php bloginfo('template_directory'); ?>/img/img (5).jpg" />
-			</div>
+			</div> -->
+				<?php echo do_shortcode('[photographers_gallery]') ?>
 		</div>
 		<div class="arrow-left"></div>
 		<div class="arrow-right"></div>
