@@ -28,7 +28,7 @@
                         <p>Удалить</p>
                     </td>
                 </tr>
-                {slides}
+                {photos}
             </table>
         </td>
     </tr>

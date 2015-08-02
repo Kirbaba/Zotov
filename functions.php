@@ -160,7 +160,7 @@ function genPhotographersAdminPage(){
 
     $generate = '';
 
-    $slides = $wpdb->get_results("SELECT * FROM photographers_gallery");
+    $photos = $wpdb->get_results("SELECT * FROM photographers_gallery");
     foreach ($photos as $photo) {
         $generate .= "<tr>
                         <td style='padding-right: 10px'><img src='". $photo->img. "' alt='' style='width: 50px;'/></td>
@@ -187,4 +187,4 @@ function photosShortcode(){
 
     return "<div id='gallery' class='zoomwall'>".$generate."</div>";
 }
-add_shortcode('photographers_gallery', 'photosShortcode');
+add_shortcode('photographersGallery', 'photosShortcode');

@@ -141,7 +141,7 @@
 			     <img src="<?php bloginfo('template_directory'); ?>/img/img (4).jpg" data-highres="<?php bloginfo('template_directory'); ?>/img/img (4).jpg" />
 			    <img src="<?php bloginfo('template_directory'); ?>/img/img (5).jpg" data-highres="<?php bloginfo('template_directory'); ?>/img/img (5).jpg" />
 			</div> -->
-				<?php echo do_shortcode('[photographers_gallery]') ?>
+				<?php echo do_shortcode('[photographersGallery]') ?>
 		</div>
 		<div class="arrow-left"></div>
 		<div class="arrow-right"></div>
