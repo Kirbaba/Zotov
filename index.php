@@ -47,20 +47,18 @@
 			<h1>OpenAir RECORD CLUB, 29 августа, ЯХТ-КЛУБ "УРАЛ"</h1>
 			<h4>29 августа Afterparty Дня города и закрытие летнего сезона <br>
 на грандиозном OpenAir'е "RECORD CLUB" !</h4>
-			<div class="events__block">
+
+            <?php do_shortcode('[events]');?>
+
+			<!--<div class="events__block">
 				<div class="events__block--img">
-					<img src="<?php bloginfo('template_directory'); ?>/img/HnJvEr6ztPo.jpg" alt="">
+					<img src="<?php /*bloginfo('template_directory'); */?>/img/HnJvEr6ztPo.jpg" alt="">
 				</div>
 				<div class="events__block--desc">
 					<h3>Ближайшее  мероприятие</h3>
 					<a href="#nowhere">Подробнее</a>
 				</div>
 			</div>
-			<div class="events__block">				
-				<div class="events__block--desc">
-					<h3>Скоро</h3>
-				</div>
-			</div>
 			<div class="events__block">
 				<div class="events__block--desc">
 					<h3>Скоро</h3>
@@ -71,6 +69,11 @@
 					<h3>Скоро</h3>
 				</div>
 			</div>
+			<div class="events__block">
+				<div class="events__block--desc">
+					<h3>Скоро</h3>
+				</div>
+			</div>-->
 		</div>
 	</section>
 <a id="go_live" name="go_leve" class="internal_links"></a>

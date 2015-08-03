@@ -1,0 +1,7 @@
+img.attachment-post-thumbnail.wp-post-image {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    vertical-align: middle;
+}
