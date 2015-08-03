@@ -262,6 +262,20 @@ ul {
   height: 70px;
   background-color: #414146; }
 
+.single {
+  display: block;
+  position: relative;
+  font-family: "Century-Gothic-Regular";
+  padding: 0 0 50px; }
+  .single__thumb img {
+    display: block;
+    margin: 25px auto; }
+  .single__name {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center; }
+
 .slider {
   margin: 0 0 40px 0;
   padding: 0;
