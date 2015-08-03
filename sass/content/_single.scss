@@ -1,0 +1,19 @@
+.single {
+	display: block;
+	position: relative;
+	font-family: $cent;
+	padding: 0 0 50px;
+	&__thumb {
+		img {
+			display: block;
+			margin: 25px auto;
+		}
+	}
+
+	&__name {
+		display: block;
+		width: 50%;
+		margin: 0 auto;
+		text-align: center;
+	}
+}

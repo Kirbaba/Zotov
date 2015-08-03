@@ -15,7 +15,7 @@ function initialize() {
     var marker = new google.maps.Marker({
         position: myLatlng,
         map: map,
-        title:"Ditlogistic"
+        title:"Zotov"
     });
 }
 
@@ -50,8 +50,8 @@ $(function() {
     });
 });
 
-window.onload = function() {
-    zoomwall.create(document.getElementById('gallery'));
+window.onload = function() {    
     loadScript();
+    zoomwall.create(document.getElementById('gallery'));
 };
 
