@@ -19,13 +19,14 @@
 		<div class="header__nav">
 			<nav class="navMenu">
 				<ul>
-					<a href="#go_celebr" class="smoothScroll"><li>Организация  праздников</li></a>
-					<a href="#go_concerts" class="smoothScroll"><li>Организация  концертов</li></a>
-					<a href="#go_events" class="smoothScroll"><li>наши  мероприятия</li></a>
-					<a href="#go_live" class="smoothScroll"><li>Живая музыка Шоу-балет </li></a>
-					<a href="#go_photo" class="smoothScroll"><li>Видеоографы Фотографы </li></a>
-					<a href="#go_rent" class="smoothScroll"><li>Аренда  аппаратуры</li></a>
-					<a href="#go_contacts" class="smoothScroll"><li>контакты</li></a>
+					<a href="#go_celebr" class="smoothScroll"><li><span>Организация  праздников</span></li></a>
+					<a href="#go_concerts" class="smoothScroll"><li><span>Организация  концертов</span></li></a>
+					<a href="#go_events" class="smoothScroll"><li><span>наши  мероприятия</span></li></a>
+					<a href="#go_events"><li><span>мероприятия</span></li></a>
+					<a href="#go_live" class="smoothScroll"><li><span>Живая музыка Шоу-балет </span></li></a>
+					<a href="#go_photo" class="smoothScroll"><li><span>Видеоографы Фотографы </span></li></a>
+					<a href="#go_rent" class="smoothScroll"><li><span>Аренда  аппаратуры</span></li></a>
+					<a href="#go_contacts" class="smoothScroll"><li><span>контакты</span></li></a>
 				</ul>
 			</nav>
 		</div>

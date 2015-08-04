@@ -5,19 +5,24 @@
   ul {
     a{
       display: inline-block;
-      width: 150px;
+      width: 135px;
       height: 58px;
       line-height: 58px;
-      padding: 0 10px;
+      padding: 0;
       text-align: center;
-      li {
-        display: inline-block;
+      li {        
         color: #414141;
-        line-height: normal;
+        width: 135px;
+        height: 58px;
+        line-height: 58px;
         text-transform: uppercase;
-        vertical-align: middle;
         font-size: 16px;
         font-weight: 200;
+        span {
+          vertical-align: middle;
+          line-height: normal;
+          display: inline-block;          
+        }
       }
       &:hover {
         background-color: #ff0111;
