@@ -253,9 +253,17 @@
 	}
 	.zoomwall {
 		width: 80%;
-		max-width: 1000px;
 		display: block;
 		margin: 25px auto;
+	}
+	.fotorama {
+		width: 80%;
+		display: block;
+		margin: 25px auto;
+	}
+	.fotorama__nav__shaft {
+		float: inherit;
+		margin-right: 0;
 	}
 
 	.arrow-left {

@@ -1,4 +1,4 @@
-<?php
+    <?php
 
 define('GENERATOR_THEME_DIR', plugin_dir_path(__FILE__));
 define('GENERATOR_THEME_URL', plugin_dir_url(__FILE__));
@@ -200,7 +200,7 @@ function photosShortcode()
         $iterator++;
     }
 
-    return "<div id='gallery' class='zoomwall'>" . $generate . "</div>";
+    return "<div class='fotorama' data-nav='thumbs' data-fit='scaledown' data-autoplay='true' data-loop='true' date-width='80%' data-height'500' data-maxwidth='100%' data-navposition='bottom' data-ratio='3/2' data-thumbheight='56'>" . $generate . "</div>";
 }
 
 add_shortcode('photographersGallery', 'photosShortcode');
