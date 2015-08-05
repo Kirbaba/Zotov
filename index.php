@@ -27,6 +27,7 @@
 					<a href="#go_photo" class="smoothScroll"><li>Видеоографы Фотографы </li></a>
 					<a href="#go_rent" class="smoothScroll"><li>Аренда  аппаратуры</li></a>
 					<a href="#go_contacts" class="smoothScroll"><li>контакты</li></a>
+
 				</ul>
 			</nav>
 		</div>
