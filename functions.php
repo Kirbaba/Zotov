@@ -229,3 +229,34 @@ function get_events()
 }
 
 add_shortcode('events','get_events');
+
+function true_customizer_init( $wp_customize ) {
+       $wp_customize->add_section(
+        'bannersBlock', // id секции, должен прописываться во всех настройках, которые в неё попадают
+        array(
+            'title'     => 'Лого',
+            'priority'  => 200, // приоритет расположения относительно других секций
+            'description' => '' // описание не обязательное
+        )
+    );
+
+    $wp_customize->add_setting(
+        'banner1',
+        array(
+            'default'           => 'arse',
+            'capability'        => 'edit_theme_options',
+            'type'           => 'option',
+        )
+    );
+  
+    $wp_customize->add_control(
+        new   WP_Customize_Upload_Control($wp_customize, 'banner1', array(
+                'label'    => __('Загрузить лого', 'themename'),
+                'section'  => 'bannersBlock',
+                'settings' => 'banner1',
+            )
+        )
+    );
+}
+
+add_action( 'customize_register', 'true_customizer_init' );

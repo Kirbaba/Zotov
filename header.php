@@ -14,19 +14,19 @@
 <body>
 	<header class="header">
 		<div class="header__logo">
-			<a href="<?php echo get_home_url();?>"><img src="<?php bloginfo('template_directory'); ?>/img/ZOTOV.png" alt=""></a>
+			<a href="<?php echo get_home_url();?>"><img src="<?php echo get_option( 'banner1' ); ?>" alt=""></a>
 		</div>
 		<div class="header__nav">
 			<nav class="navMenu">
 				<ul>
-					<a href="<?php echo get_home_url();?>#go_celebr"><li>Организация  праздников</li></a>
-					<a href="<?php echo get_home_url();?>#go_concerts"><li>Организация  концертов</li></a>
-					<a href="<?php echo get_home_url();?>#go_events"><li>наши  мероприятия</li></a>
-					<a href="<?php echo get_permalink(26); ?>"><li><span>Наши услуги</span></li></a>
-					<a href="<?php echo get_home_url();?>#go_live"><li>Живая музыка Шоу-балет </li></a>
-					<a href="<?php echo get_home_url();?>#go_photo"><li>Видеоографы Фотографы </li></a>
-					<a href="<?php echo get_home_url();?>#go_rent"><li>Аренда  аппаратуры</li></a>
-					<a href="<?php echo get_home_url();?>#go_contacts" ><li>контакты</li></a>
+					<a href="<?php echo get_home_url();?>#go_celebr"><li><span>Организация  праздников</span></li></a>
+					<a href="<?php echo get_home_url();?>#go_concerts"><li><span>Организация  концертов</span></li></a>
+					<a href="<?php echo get_home_url();?>#go_events"><li><span>наши  мероприятия</span></li></a>
+					<a href="<?php echo get_permalink(26); ?>"><li><span><span>Наши услуги</span></li></a>
+					<a href="<?php echo get_home_url();?>#go_live"><li><span>Живая музыка Шоу-балет </span></li></a>
+					<a href="<?php echo get_home_url();?>#go_photo"><li><span>Видеоографы Фотографы </span></li></a>
+					<a href="<?php echo get_home_url();?>#go_rent"><li><span>Аренда  аппаратуры</span></li></a>
+					<a href="<?php echo get_home_url();?>#go_contacts" ><li><span>контакты</span></li></a>
 				</ul>
 			</nav>
 		</div>
