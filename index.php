@@ -22,6 +22,7 @@
 					<a href="#go_celebr" class="smoothScroll"><li>Организация  праздников</li></a>
 					<a href="#go_concerts" class="smoothScroll"><li>Организация  концертов</li></a>
 					<a href="#go_events" class="smoothScroll"><li>наши  мероприятия</li></a>
+					<a href="<?php echo get_permalink(26); ?>"><li><span>Наши услуги</span></li></a>
 					<a href="#go_live" class="smoothScroll"><li>Живая музыка Шоу-балет </li></a>
 					<a href="#go_photo" class="smoothScroll"><li>Видеоографы Фотографы </li></a>
 					<a href="#go_rent" class="smoothScroll"><li>Аренда  аппаратуры</li></a>
@@ -48,7 +49,7 @@
 			<h4>29 августа Afterparty Дня города и закрытие летнего сезона <br>
 на грандиозном OpenAir'е "RECORD CLUB" !</h4>
 
-            <?php do_shortcode('[events]');?>
+            <?php echo do_shortcode('[events]');?>
 
 			<!--<div class="events__block">
 				<div class="events__block--img">
