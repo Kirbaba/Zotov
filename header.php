@@ -22,6 +22,7 @@
 					<a href="<?php echo get_home_url();?>#go_celebr"><li>Организация  праздников</li></a>
 					<a href="<?php echo get_home_url();?>#go_concerts"><li>Организация  концертов</li></a>
 					<a href="<?php echo get_home_url();?>#go_events"><li>наши  мероприятия</li></a>
+					<a href="<?php echo get_permalink(26); ?>"><li><span>Наши услуги</span></li></a>
 					<a href="<?php echo get_home_url();?>#go_live"><li>Живая музыка Шоу-балет </li></a>
 					<a href="<?php echo get_home_url();?>#go_photo"><li>Видеоографы Фотографы </li></a>
 					<a href="<?php echo get_home_url();?>#go_rent"><li>Аренда  аппаратуры</li></a>
